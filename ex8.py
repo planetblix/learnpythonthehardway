@@ -7,7 +7,7 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 print "Here are the days: ", days
 print "Here are the months: ", months
 
-#This is one to remember, start with """ and end with """ for printing multiple lines.
+#This is one to remember, start with """ and end with """ for printing multiple lines with newline after each line.
 print """
 There's something going on here.
 With the three-double-quotes.
