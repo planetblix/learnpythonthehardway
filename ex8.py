@@ -1,16 +1,14 @@
 #!/bin/python
 
-days = "Mon Tue Wed Thu Fri Sat Sun"
-#Jan doesn't start on a newline? why? Needs \n at beginning.
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+formatter = "%r %r %r %r"
 
-print "Here are the days: ", days
-print "Here are the months: ", months
-
-#This is one to remember, start with """ and end with """ for printing multiple lines with newline after each line.
-print """
-There's something going on here.
-With the three-double-quotes.
-We'll be able to type as much as we like.
-Even 4 lines if we want, or 5, or 6.
-"""
+print formatter % (1, 2, 3, 4)
+print formatter % ("one", "two", "three", "four")
+print formatter % (True, False, False, True)
+print formatter % (formatter, formatter, formatter, formatter)
+print formatter % (
+	"I had this thing.",
+	"That you could type up right.",
+ 	"But it didn't sing.",
+	"So I said goodnight."
+)
