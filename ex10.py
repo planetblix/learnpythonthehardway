@@ -32,6 +32,14 @@ doublequote = "\""
 print "This is also a double-quote: %s" % doublequote
 print "This is also a double-quote: %r" % doublequote
 
+print "This is a ascii-bell: \a"
+asciibell = "\a"
+#Note: This line DOES sound a bell.
+print "This is also a ascii-bell: %s" % asciibell
+#Note: This line doesn't sound a bell.
+print "This is also a ascii-bell: %r" % asciibell
+
+
 
 
 
