@@ -25,3 +25,12 @@ print "So, you're %r old, %r tall and %r heavy." % (
     #Open a file using the file() type, returns a file object.  This is the
     #preferred way to open a file.  See file.__doc__ for further information.
 
+#pydoc os
+    #os - OS routines for Mac, NT, or Posix depending on what system we're on.
+
+#pydoc sys
+    #This module provides access to some objects used or maintained by the
+    #interpreter and to functions that interact strongly with the interpreter.
+
+
+
