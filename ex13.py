@@ -15,6 +15,11 @@ print "Your first variable is:", first
 print "Your second variable is:", second
 print "Your third variable is:", third
 
+x = raw_input("Let's have more input:")
+y = raw_input()
+z = raw_input()
+
+print x,y,z
 #Notes:
 #This error below appears if we don't provide enough arguments:
 #ValueError: need more than 3 values to unpack
@@ -23,3 +28,5 @@ print "Your third variable is:", third
 #the right type but an inappropiate value, and the situation is not described
 #by a more precise exception such as IndexError. See the Exception hierarachy here:
 #http://docs.python.org/2/library/exceptions.html
+
+
