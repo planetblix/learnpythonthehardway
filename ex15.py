@@ -22,8 +22,6 @@ print txt.read()
 
 print "Type the filename again:"
 
-print "Type the filename again:"
-
 #raw_input reads a line from input, converts it to a string, the ">" it's just
 #written to the standard output i.e. command line, before the prompt.
 file_again = raw_input(">")
@@ -36,3 +34,29 @@ print txt_again.read()
 
 #Notes: Other file object functions
 
+#fileno(...) returns a file descriptor
+fileno = txt.fileno()
+print fileno;
+
+#flush() flush the internal buffer
+txt.flush()
+
+#isatty() checks if the file is connected to a tty device
+atty=txt.isatty()
+print atty
+
+#next()
+#read()
+#readinto()
+#readLine()
+#readLines()
+#seek()
+#tell()
+#truncate()
+#write()
+#writeLines()
+#xreadLines()
+
+#Remember to close files
+txt.close()
+txt_again.close()
