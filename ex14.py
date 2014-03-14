@@ -3,7 +3,7 @@
 from sys import argv
 
 script, user_name, phone_no = argv
-prompt = '>>>'
+prompt = ">>>"
 
 print "Hi %s, I'm the %s script and your phone number is: %s" \
        % (user_name, script, phone_no)
